@@ -1,14 +1,10 @@
 <?php 
 
-$sex = "male"; // cinsiyet (male/female)
-$weight = 55; // kilo (kg)
-$height = 170; // boy (cm)
-$age = 25; // yaş (sene)
-
 $sex = "female";
 $weight = 60;
 $height = 170;
 $age = 30;
+
 
 switch ($sex){
 case 'female':
@@ -25,6 +21,7 @@ echo "<p>This means that you need rouhgly $sex calories a day to maintain your c
 }
 
 ?>
+
 
 
 
