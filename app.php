@@ -20,7 +20,7 @@ $age = 30;
  * $height = 170;
  * $age = 30;
  * 
- * Ekrana 1326.5 yazması gerekiyor.
+ * Ekrana 1351.5 yazması gerekiyor.
  */ 
 
 
