@@ -1,9 +1,9 @@
-<?php
+<?php 
 
-$sex = "male"; // cinsiyet (male/female)
-$weight = 55; // kilo (kg)
-$height = 170; // boy (cm)
-$age = 25; // yaş (sene)
+$sex = "female";
+$weight = 60;
+$height = 170;
+$age = 30;
 
 /**
  * Bu ödevde günlük kalori hesaplaması yapacağız.
@@ -20,5 +20,23 @@ $age = 25; // yaş (sene)
  * $height = 170;
  * $age = 30;
  * 
- * Ekrana 1326.5 yazması gerekiyor.
- */
+ * Ekrana 1351.5 yazması gerekiyor.
+ */ 
+
+
+switch ($sex){
+case 'female':
+$calorie= (10 * $weight) + (6.25 * $height) - (5 * $age) - 161;
+echo "<p>Your estimated daily metabolic rate is $calorie </p>";
+ 
+break;
+case 'male':
+$calorie= (10 * $weight) + (6.25 * $height) - (5 * $age) + 5;
+echo "<p>Your estimated daily metabolic rate is $calorie </p>";
+
+}
+
+?>
+
+
+
